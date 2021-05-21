@@ -128,6 +128,7 @@ const Game = props => {
               onClick={onNumberClick}//parent component telling child component what to do when number is clicked
             />
           ))}
+	   Note.You can only use a number once
         </div>
       </div>
       <div className="timer">Time Remaining: {secondsLeft}</div>
