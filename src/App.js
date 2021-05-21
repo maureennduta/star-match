@@ -76,7 +76,7 @@ const Game = props => {
   const gameStatus = availableNums.length === 0 
   	? 'won'
     : secondsLeft === 0 ? 'lost' : 'active'
-    //notation ???
+    //notation 
 
 // return the status of the number using the data in usegame
   const numberStatus = number => {
