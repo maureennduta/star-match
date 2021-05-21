@@ -1,0 +1,73 @@
+.App {
+  text-align: center;
+  color: black;
+}
+
+.game {
+  max-width: 500px;
+  margin: 0 auto;
+  top: 30%;  
+}
+
+.body {
+  display: flex;  
+}
+
+.help {
+  color: black;
+  margin: 10px;
+  text-align: center;
+  font-size: 30px;
+}
+
+.left {
+  text-align: center;
+  padding: 10px;
+  width: 50%;
+  border: thin solid rgb(3, 3, 3);
+}
+
+.right {
+  text-align: center;
+  padding: 10px;
+  width: 50%;
+  border: thin solid rgb(3,3,3);
+}
+
+.star {
+	display: inline-block;
+  margin: 0 15px;
+}
+
+.star:after {
+  content: "\2605";
+  font-size: 45px;
+  color:black;
+}
+
+.number {
+  background-color: #eee;
+  border: thin solid #ddd;
+  width: 45px;
+  height: 45px;
+  margin: 10px;
+  font-size: 25px;
+}
+
+.number:focus, .number:active {
+  outline: none;
+  border: thin solid #ddd;
+}
+
+.timer {
+	color:red;
+  margin-top: 3px;
+  margin-left: 3px;
+  font-size: 25px;
+}
+
+.game-done .message {
+  font-size: 250%;
+  font-weight: bold;
+  margin: 15px;
+}
